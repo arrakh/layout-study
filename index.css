@@ -66,19 +66,10 @@ body {
     color: #e5e7eb;
 }
 
-.sign-up-button {
-    color: #f9faf8;
-    background-color: #3882F6;
-    padding: 8px 32px 8px 32px;
-    margin-top: 20px;
-    transition: 0.1s;
-    border-radius: 8px;
-    border-style: none;
-}
-
-.hero button:hover{
-    color: #3882F6;
-    background-color: #f9faf8;
+.hero img {
+    box-shadow: 5px 8px 31px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 5px 8px 31px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 5px 8px 31px 0px rgba(0,0,0,0.36);
 }
 
 .subhero {
@@ -95,12 +86,76 @@ body {
 
 .subhero.container{
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: min-content min-content min-content;
+    justify-content: center;
     margin-bottom: 100px;
 }
 
 .subhero.container img {
-    padding: 16px;
+    margin: 16px;
+    margin-top: 32px;
+    box-shadow: 5px 8px 31px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 5px 8px 31px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 5px 8px 31px 0px rgba(0,0,0,0.36);
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote.container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 50vh;
+    margin-right: 50vh;
+}
+
+.quote.content{
+    
+    text-align: justify;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote.subject{
+    font-size: 18px;
+    text-align: end;
+    font-style: oblique;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 8px;
+
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    padding: 0 4vh 0 4vh
+}
+
+.call-to-action.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 8px 32px 8px;
+}
+
+.call-to-action h3 {
+    margin-block-end: 0;
+}
+
+.call-to-action p {
+    margin-block-start: 0;
+}
+
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    color: #f9faf8;
 }
 
 .bg-dark {
@@ -114,6 +169,38 @@ body {
 }
 
 .global-margin {
-    margin-left: 20vh;
-    margin-right: 20vh;
+    margin-left: 33vh;
+    margin-right: 33vh;
+}
+
+.sign-up-button {
+    color: #f9faf8;
+    background-color: #3882F6;
+    padding: 8px 32px 8px 32px;
+    margin-top: 20px;
+    transition: 0.1s;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.sign-up-button:hover{
+    color: #3882F6;
+    background-color: #f9faf8;
+}
+
+.sign-up-button-white-border {
+    border-width: 2px;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    background-color: #3882F6;
+    padding: 8px 32px 8px 32px;
+    transition: 0.1s;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.sign-up-button-white-border:hover{
+    color: #3882F6;
+    background-color: #f9faf8;
+    border-width: 4px;
 }
