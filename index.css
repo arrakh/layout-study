@@ -42,7 +42,65 @@ body {
 }
 
 .hero {
-    height: 4000px;   
+    height: 800px;  
+}
+
+.hero.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero.info {
+    height: auto;
+    margin-right: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero p {
+    color: #e5e7eb;
+}
+
+.sign-up-button {
+    color: #f9faf8;
+    background-color: #3882F6;
+    padding: 8px 32px 8px 32px;
+    margin-top: 20px;
+    transition: 0.1s;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.hero button:hover{
+    color: #3882F6;
+    background-color: #f9faf8;
+}
+
+.subhero {
+    height: auto;
+}
+
+.subhero h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.subhero.container{
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 100px;
+}
+
+.subhero.container img {
+    padding: 16px;
 }
 
 .bg-dark {
@@ -56,6 +114,6 @@ body {
 }
 
 .global-margin {
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
 }
