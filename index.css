@@ -1,5 +1,5 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -24,6 +24,14 @@ body {
     font-size: 24px;
     padding-left: 16px;
     padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: 0.1s;
+}
+
+.header nav:hover {
+    background-color: #fff;
+    color: #1f2937;
 }
 
 .header-logo {
